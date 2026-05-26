@@ -100,7 +100,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-5xl sm:text-6xl lg:text-6xl xl:text-5xl 2xl:text-6xl font-shrikhand text-[#111111] leading-[1] tracking-tight italic"
+              className="text-2xl sm:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl font-shrikhand text-[#111111] leading-[1] tracking-tight italic"
             >
               Data that
             </motion.h1>
@@ -109,7 +109,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="text-5xl sm:text-6xl lg:text-6xl xl:text-5xl 2xl:text-6xl font-shrikhand text-[#c0392b] leading-[1.1] italic tracking-tight drop-shadow-md"
+              className="text-2xl sm:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl font-shrikhand text-[#c0392b] leading-[1.1] italic tracking-tight drop-shadow-md"
             >
               Inspires.
             </motion.h1>

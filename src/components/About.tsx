@@ -36,12 +36,12 @@ export default function About() {
             className="lg:col-span-7 flex flex-col items-center md:items-start text-center md:text-left"
           >
             {/* Massive About Me Header */}
-            <h1 className="font-shrikhand text-ink-black text-5xl md:text-6xl lg:text-6xl leading-[0.9] tracking-tight mb-8 drop-shadow-sm transition-transform duration-700 group-hover:translate-x-2 whitespace-nowrap">
+            <h1 className="font-shrikhand text-ink-black text-3xl md:text-2xl lg:text-3xl leading-[0.9] tracking-tight mb-8 drop-shadow-sm transition-transform duration-700 group-hover:translate-x-2 whitespace-nowrap">
               ABOUT <span className="text-tomato-jam">ME.</span>
             </h1>
 
             <h2 
-              className="font-shrikhand text-3xl md:text-4xl lg:text-6xl leading-tight mb-10 text-ink-black"
+              className="font-shrikhand text-2xl md:text-3xl lg:text-2xl leading-tight mb-10 text-ink-black"
               style={{ fontWeight: 900, WebkitTextStroke: '1px #111111' }}
             >
               Decoding Data, 

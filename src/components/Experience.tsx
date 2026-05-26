@@ -260,7 +260,7 @@ export default function Experience() {
           <div className="section-tag">
             <span className="w-8 h-px bg-tomato-jam" /> Journey
           </div>
-          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1]">
+          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-2xl tracking-tight leading-[1.1]">
             Experience & <br/> <span className="text-tomato-jam italic">Milestones.</span>
           </h2>
         </div>
@@ -286,7 +286,7 @@ export default function Experience() {
                   onClick={(e) => toggleInternship(index, e)}
                 >
                   <div className="flex-1">
-                    <h3 className="font-shrikhand text-3xl md:text-5xl text-ink-black transition-colors">
+                    <h3 className="font-shrikhand text-2xl md:text-3xl text-ink-black transition-colors">
                       {internship.company}
                     </h3>
                     <p className="text-tomato-jam font-bold uppercase tracking-widest text-sm md:text-base mt-3">

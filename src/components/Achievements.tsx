@@ -64,7 +64,7 @@ export default function Achievements() {
           <div className="section-tag text-almond-cream mb-4 justify-center">
             <span className="w-8 h-px bg-tomato-jam" /> Milestones
           </div>
-          <h2 className="font-shrikhand text-almond-cream text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-almond-cream text-2xl md:text-3xl lg:text-2xl tracking-tight leading-[1.1] mb-6">
             Numbers of <br/> <span className="text-tomato-jam italic">Success.</span>
           </h2>
         </div>
@@ -86,7 +86,7 @@ export default function Achievements() {
                     <Icon className="w-8 h-8 text-tomato-jam group-hover:scale-110 transition-transform duration-300" />
                   </div>
                   <div className="text-right">
-                    <div className="font-shrikhand text-5xl text-almond-cream group-hover:text-white transition-colors">
+                    <div className="font-shrikhand text-3xl text-almond-cream group-hover:text-white transition-colors">
                       {item.metric}
                     </div>
                     <div className="text-xs font-bold uppercase tracking-widest text-gray-400 group-hover:text-gray-300 transition-colors">

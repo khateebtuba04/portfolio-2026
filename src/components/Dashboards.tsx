@@ -101,7 +101,7 @@ export default function Dashboards() {
           <div className="section-tag mb-4 text-almond-cream justify-center">
             <span className="w-8 h-px bg-tomato-jam" /> Dashboard & Intelligence
           </div>
-          <h2 className="font-shrikhand text-almond-cream text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-almond-cream text-2xl md:text-3xl lg:text-2xl tracking-tight leading-[1.1] mb-6">
             Dashboards & <span className="text-tomato-jam italic">Intelligence.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl text-sm md:text-base font-light leading-relaxed">
@@ -181,7 +181,7 @@ export default function Dashboards() {
                 <div className="text-tomato-jam text-xs font-bold uppercase tracking-widest mb-4">
                   DASHBOARD CASE STUDY
                 </div>
-                <h3 className="font-shrikhand text-white text-3xl sm:text-4xl lg:text-5xl leading-[1.1] pr-12 max-w-3xl">
+                <h3 className="font-shrikhand text-white text-2xl sm:text-3xl lg:text-2xl leading-[1.1] pr-12 max-w-3xl">
                   {selectedDashboard.title}
                 </h3>
               </div>

@@ -50,7 +50,7 @@ export default function Contact() {
           <div className="section-tag mb-4 justify-center md:justify-start">
             <span className="w-8 h-px bg-tomato-jam" /> Contact
           </div>
-          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-2xl tracking-tight leading-[1.1] mb-6">
             Let&apos;s Start a <br/> <span className="text-tomato-jam italic">Project.</span>
           </h2>
           <p className="text-gray-500 max-w-xl text-sm md:text-base font-light leading-relaxed">

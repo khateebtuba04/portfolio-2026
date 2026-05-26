@@ -73,7 +73,7 @@ export default function Certifications() {
             <div className="section-tag mb-4">
               <span className="w-8 h-px bg-tomato-jam" /> Education
             </div>
-            <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1]">
+            <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-2xl tracking-tight leading-[1.1]">
               Learning & <br/> <span className="text-tomato-jam italic">Certifications.</span>
             </h2>
           </div>

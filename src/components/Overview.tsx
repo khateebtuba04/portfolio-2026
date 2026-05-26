@@ -408,7 +408,7 @@ export default function Overview({ setActiveTab }: { setActiveTab: (tab: string)
             </span>
           </div>
           
-          <h2 className="font-heading font-black text-2xl sm:text-4xl text-white leading-tight">
+          <h2 className="font-heading font-black text-2xl sm:text-2xl text-white leading-tight">
             Tuba Mariyam Khateeb
           </h2>
           

@@ -62,7 +62,7 @@ export default function Skills() {
             <div className="section-tag justify-center md:justify-start">
               <span className="w-8 h-px bg-tomato-jam" /> Expertise
             </div>
-            <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl leading-[1.1] tracking-tight">
+            <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-2xl leading-[1.1] tracking-tight">
               Technology <br/> <span className="text-tomato-jam italic">Arsenal.</span>
             </h2>
           </div>
@@ -106,7 +106,7 @@ export default function Skills() {
                     transition={{ duration: 0.5, ease: "easeOut" }}
                     className="brutalist-card bg-white/70 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] border-white border"
                   >
-                    <h3 className="font-shrikhand text-3xl md:text-5xl text-ink-black mb-10 pb-6 border-b border-black/10 drop-shadow-sm">
+                    <h3 className="font-shrikhand text-2xl md:text-3xl text-ink-black mb-10 pb-6 border-b border-black/10 drop-shadow-sm">
                       {category.label}
                     </h3>
                     <div className="flex flex-wrap gap-3 md:gap-4">
