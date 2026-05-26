@@ -260,7 +260,7 @@ export default function Experience() {
           <div className="section-tag">
             <span className="w-8 h-px bg-tomato-jam" /> Journey
           </div>
-          <h2 className="font-shrikhand text-ink-black text-5xl md:text-6xl lg:text-[5.5rem] tracking-tight leading-[1.1]">
+          <h2 className="font-shrikhand text-ink-black text-xl md:text-2xl lg:text-5xl tracking-tight leading-[1.1]">
             Experience & <br/> <span className="text-tomato-jam italic">Milestones.</span>
           </h2>
         </div>
@@ -367,7 +367,7 @@ export default function Experience() {
                                 >
                                   {/* Project Header */}
                                   <div className="flex justify-between items-start gap-4 mb-4">
-                                    <h5 className={`font-shrikhand text-2xl md:text-3xl transition-colors ${isProjExpanded ? 'text-tomato-jam' : 'text-ink-black'}`}>
+                                    <h5 className={`font-shrikhand text-xl md:text-2xl transition-colors ${isProjExpanded ? 'text-tomato-jam' : 'text-ink-black'}`}>
                                       {proj.title}
                                     </h5>
                                     <div className="p-2 rounded-full bg-black/5 mt-1 shrink-0">
@@ -401,7 +401,7 @@ export default function Experience() {
                                           {/* Banner / Header */}
                                           <div className="bg-[#111111] p-6 md:p-8 relative">
                                             <div className="text-tomato-jam text-[9px] font-bold uppercase tracking-widest mb-3">Project Case Study</div>
-                                            <h4 className="font-shrikhand text-white text-2xl md:text-3xl lg:text-4xl pr-8 leading-tight">
+                                            <h4 className="font-shrikhand text-white text-2xl md:text-2xl lg:text-3xl pr-8 leading-tight">
                                               {proj.title}
                                             </h4>
                                           </div>

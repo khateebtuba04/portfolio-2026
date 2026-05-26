@@ -101,7 +101,7 @@ export default function Dashboards() {
           <div className="section-tag mb-4 text-almond-cream justify-center">
             <span className="w-8 h-px bg-tomato-jam" /> Dashboard & Intelligence
           </div>
-          <h2 className="font-shrikhand text-almond-cream text-5xl md:text-6xl lg:text-[6rem] tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-almond-cream text-2xl md:text-2xl lg:text-3xl tracking-tight leading-[1.1] mb-6">
             Dashboards & <span className="text-tomato-jam italic">Intelligence.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl text-sm md:text-base font-light leading-relaxed">
@@ -139,7 +139,7 @@ export default function Dashboards() {
                   </div>
                 </div>
                 <div className="relative z-10">
-                  <h3 className="font-shrikhand text-almond-cream text-3xl lg:text-4xl mb-4 group-hover:text-white transition-colors leading-tight">
+                  <h3 className="font-shrikhand text-almond-cream text-2xl lg:text-3xl mb-4 group-hover:text-white transition-colors leading-tight">
                     {db.title}
                   </h3>
                   <p className="text-gray-400 text-sm md:text-base font-medium line-clamp-3 group-hover:text-gray-300 transition-colors leading-relaxed">
