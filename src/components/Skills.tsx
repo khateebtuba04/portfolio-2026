@@ -62,7 +62,7 @@ export default function Skills() {
             <div className="section-tag justify-center md:justify-start">
               <span className="w-8 h-px bg-tomato-jam" /> Expertise
             </div>
-            <h2 className="font-shrikhand text-ink-black text-4xl md:text-5xl lg:text-5xl leading-[1.1] tracking-tight">
+            <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl leading-[1.1] tracking-tight">
               Technology <br/> <span className="text-tomato-jam italic">Arsenal.</span>
             </h2>
           </div>

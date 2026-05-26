@@ -260,7 +260,7 @@ export default function Experience() {
           <div className="section-tag">
             <span className="w-8 h-px bg-tomato-jam" /> Journey
           </div>
-          <h2 className="font-shrikhand text-ink-black text-4xl md:text-5xl lg:text-5xl tracking-tight leading-[1.1]">
+          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1]">
             Experience & <br/> <span className="text-tomato-jam italic">Milestones.</span>
           </h2>
         </div>
@@ -318,7 +318,7 @@ export default function Experience() {
                         
                         {/* Left Sidebar: Info & Certs */}
                         <div className="lg:col-span-1 space-y-10">
-                          <p className="text-gray-700 leading-relaxed font-medium text-base md:text-lg whitespace-pre-line">
+                          <p className="text-gray-700 leading-relaxed font-medium text-sm md:text-base whitespace-pre-line">
                             {internship.desc}
                           </p>
                           
@@ -401,7 +401,7 @@ export default function Experience() {
                                           {/* Banner / Header */}
                                           <div className="bg-[#111111] p-6 md:p-8 relative">
                                             <div className="text-tomato-jam text-[9px] font-bold uppercase tracking-widest mb-3">Project Case Study</div>
-                                            <h4 className="font-shrikhand text-white text-2xl md:text-2xl lg:text-3xl pr-8 leading-tight">
+                                            <h4 className="font-shrikhand text-white text-2xl md:text-lg lg:text-xl pr-8 leading-tight">
                                               {proj.title}
                                             </h4>
                                           </div>

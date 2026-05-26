@@ -65,7 +65,7 @@ export default function Hero() {
       id="home" 
       className="relative w-full min-h-screen bg-[#f5f0e8] box-border px-5 sm:px-8 lg:px-[80px] flex items-center overflow-hidden"
     >
-      <div className="w-full max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-[55fr_45fr] items-center pt-32 pb-16 lg:pt-24 lg:pb-12 gap-12 lg:gap-8">
+      <div className="w-full max-w-[1500px] mx-auto grid grid-cols-1 lg:grid-cols-[55fr_45fr] items-center pt-24 pb-12 lg:pt-16 lg:pb-8 gap-8 lg:gap-6">
         
         {/* Left Column: Text & Stats */}
         <div className="w-full flex flex-col justify-center gap-3 lg:gap-4 relative z-10">
@@ -81,7 +81,7 @@ export default function Hero() {
               <span className="text-[11px] md:text-[13px] uppercase tracking-[0.3em] text-ink-black font-bold mb-1 ml-1">
                 Hello, I am
               </span>
-              <h2 className="text-2xl sm:text-4xl lg:text-3xl xl:text-4xl 2xl:text-[3rem] leading-[1.1] font-extrabold text-tomato-jam tracking-tight uppercase drop-shadow-sm">
+              <h2 className="text-lg sm:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl leading-[1.1] font-extrabold text-tomato-jam tracking-tight uppercase drop-shadow-sm">
                 Tuba Mariyam Khateeb
               </h2>
             </motion.div>
@@ -100,7 +100,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-5xl sm:text-6xl lg:text-6xl xl:text-[4.5rem] 2xl:text-[6.5rem] font-shrikhand text-[#111111] leading-[1] tracking-tight italic"
+              className="text-5xl sm:text-6xl lg:text-6xl xl:text-5xl 2xl:text-6xl font-shrikhand text-[#111111] leading-[1] tracking-tight italic"
             >
               Data that
             </motion.h1>
@@ -109,7 +109,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="text-5xl sm:text-6xl lg:text-6xl xl:text-[4.5rem] 2xl:text-[6.5rem] font-shrikhand text-[#c0392b] leading-[1.1] italic tracking-tight drop-shadow-md"
+              className="text-5xl sm:text-6xl lg:text-6xl xl:text-5xl 2xl:text-6xl font-shrikhand text-[#c0392b] leading-[1.1] italic tracking-tight drop-shadow-md"
             >
               Inspires.
             </motion.h1>
@@ -149,28 +149,28 @@ export default function Hero() {
             className="grid grid-cols-2 gap-2 xl:gap-3 mt-4 lg:mt-6 max-w-xl"
           >
             <div className="p-3 xl:p-4 bg-white/80 border border-black/10 rounded-[16px] xl:rounded-[20px] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-tomato-jam/50">
-              <div className="font-shrikhand text-[#c0392b] text-2xl xl:text-3xl font-bold tracking-tight mb-1">
+              <div className="font-shrikhand text-[#c0392b] text-xl xl:text-2xl font-bold tracking-tight mb-1">
                 <CountUp end={94.6} isFloat={true} suffix="%" />
               </div>
               <div className="text-gray-700 text-[9px] xl:text-[10px] tracking-[0.1em] font-bold uppercase leading-tight">First Rank <br/> Dept of Data Science</div>
             </div>
             
             <div className="p-3 xl:p-4 bg-white/80 border border-black/10 rounded-[16px] xl:rounded-[20px] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-tomato-jam/50">
-              <div className="font-shrikhand text-[#c0392b] text-2xl xl:text-3xl font-bold tracking-tight mb-1">
+              <div className="font-shrikhand text-[#c0392b] text-xl xl:text-2xl font-bold tracking-tight mb-1">
                 <CountUp end={25} suffix="+" />
               </div>
               <div className="text-gray-700 text-[9px] xl:text-[10px] tracking-[0.1em] font-bold uppercase leading-tight">Portfolio <br/> Projects</div>
             </div>
 
             <div className="p-3 xl:p-4 bg-white/80 border border-black/10 rounded-[16px] xl:rounded-[20px] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-tomato-jam/50">
-              <div className="font-shrikhand text-[#c0392b] text-2xl xl:text-3xl font-bold tracking-tight mb-1">
+              <div className="font-shrikhand text-[#c0392b] text-xl xl:text-2xl font-bold tracking-tight mb-1">
                 <CountUp end={6} suffix="+" />
               </div>
               <div className="text-gray-700 text-[9px] xl:text-[10px] tracking-[0.1em] font-bold uppercase leading-tight">Professional <br/> Internships</div>
             </div>
 
             <div className="p-3 xl:p-4 bg-white/80 border border-black/10 rounded-[16px] xl:rounded-[20px] shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-tomato-jam/50">
-              <div className="font-shrikhand text-[#c0392b] text-2xl xl:text-3xl font-bold tracking-tight mb-1">
+              <div className="font-shrikhand text-[#c0392b] text-xl xl:text-2xl font-bold tracking-tight mb-1">
                 <CountUp end={5} suffix="k+" />
               </div>
               <div className="text-gray-700 text-[9px] xl:text-[10px] tracking-[0.1em] font-bold uppercase leading-tight">LinkedIn <br/> Network</div>

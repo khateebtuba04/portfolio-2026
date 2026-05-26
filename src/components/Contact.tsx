@@ -50,7 +50,7 @@ export default function Contact() {
           <div className="section-tag mb-4 justify-center md:justify-start">
             <span className="w-8 h-px bg-tomato-jam" /> Contact
           </div>
-          <h2 className="font-shrikhand text-ink-black text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1] mb-6">
             Let&apos;s Start a <br/> <span className="text-tomato-jam italic">Project.</span>
           </h2>
           <p className="text-gray-500 max-w-xl text-sm md:text-base font-light leading-relaxed">
@@ -74,7 +74,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-2">Direct Email</div>
-                <div className="font-shrikhand text-lg md:text-xl lg:text-2xl text-ink-black break-all group-hover:text-tomato-jam transition-colors duration-300">
+                <div className="font-shrikhand text-base md:text-lg lg:text-2xl text-ink-black break-all group-hover:text-tomato-jam transition-colors duration-300">
                   khateebtubamariyam@gmail.com
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-2">Location</div>
-                <div className="font-shrikhand text-base md:text-lg text-ink-black">
+                <div className="font-shrikhand text-sm md:text-base text-ink-black">
                   Ambur, TamilNadu
                 </div>
               </div>

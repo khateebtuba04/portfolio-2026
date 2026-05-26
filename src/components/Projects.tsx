@@ -82,7 +82,7 @@ export default function Projects() {
           <div className="section-tag justify-center">
             <span className="w-8 h-px bg-tomato-jam" /> Portfolio
           </div>
-          <h2 className="font-shrikhand text-ink-black text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1] mb-6">
             Selected <span className="text-tomato-jam italic">Works.</span>
           </h2>
           <p className="text-gray-500 max-w-2xl text-sm md:text-base font-light leading-relaxed">
@@ -114,7 +114,7 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className="relative z-10">
-                  <h3 className="font-shrikhand text-ink-black text-2xl lg:text-3xl mb-4 group-hover:text-white transition-colors leading-tight">
+                  <h3 className="font-shrikhand text-ink-black text-lg lg:text-xl mb-4 group-hover:text-white transition-colors leading-tight">
                     {project.title}
                   </h3>
                   <p className="text-gray-500 text-xs font-medium line-clamp-3 group-hover:text-gray-300 transition-colors">
@@ -156,7 +156,7 @@ export default function Projects() {
                 <div className="text-tomato-jam text-[10px] font-bold uppercase tracking-widest mb-6">
                   {selectedProject.categoriesText}
                 </div>
-                <h3 className="font-shrikhand text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.1] pr-12 max-w-3xl">
+                <h3 className="font-shrikhand text-white text-3xl sm:text-4xl lg:text-5xl leading-[1.1] pr-12 max-w-3xl">
                   {selectedProject.title}
                 </h3>
               </div>

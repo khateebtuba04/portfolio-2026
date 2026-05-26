@@ -64,7 +64,7 @@ export default function Achievements() {
           <div className="section-tag text-almond-cream mb-4 justify-center">
             <span className="w-8 h-px bg-tomato-jam" /> Milestones
           </div>
-          <h2 className="font-shrikhand text-almond-cream text-4xl md:text-5xl lg:text-5xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-almond-cream text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1] mb-6">
             Numbers of <br/> <span className="text-tomato-jam italic">Success.</span>
           </h2>
         </div>

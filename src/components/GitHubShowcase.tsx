@@ -43,7 +43,7 @@ export default function GitHubShowcase() {
             <div className="section-tag mb-4 justify-center md:justify-start">
               <span className="w-8 h-px bg-tomato-jam" /> Open Source
             </div>
-            <h2 className="font-shrikhand text-ink-black text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[1.1]">
+            <h2 className="font-shrikhand text-ink-black text-2xl md:text-3xl lg:text-4xl tracking-tight leading-[1.1]">
               The GitHub <br/> <span className="text-tomato-jam italic">Footprint.</span>
             </h2>
           </div>

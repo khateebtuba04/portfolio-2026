@@ -49,7 +49,7 @@ export default function About() {
               <span className="text-tomato-jam italic" style={{ WebkitTextStroke: '1px #c0392b' }}>Building</span> the Future.
             </h2>
             
-            <p className="text-gray-800 font-sans font-medium text-base md:text-lg leading-relaxed max-w-2xl group-hover:text-ink-black transition-colors duration-700">
+            <p className="text-gray-800 font-sans font-medium text-sm md:text-base leading-relaxed max-w-2xl group-hover:text-ink-black transition-colors duration-700">
               I am a results-driven Data Science and Analytics Engineer dedicated to transforming complex, raw data into clear, actionable business insights. With a strong foundation in statistical analysis, machine learning, and advanced data visualization, I specialize in uncovering hidden patterns and building intuitive dashboards that empower smarter decision-making. I approach technology not just as lines of code, but as a strategic asset to solve real-world problems, optimize operations, and unlock compelling new opportunities for growth.
             </p>
             
@@ -75,10 +75,10 @@ export default function About() {
                   <GraduationCap className="w-10 h-10 text-tomato-jam group-hover/card:text-white transition-colors duration-500" />
                 </div>
                 <div className="mt-1">
-                  <h3 className="font-shrikhand text-ink-black text-2xl lg:text-3xl mb-3 group-hover/card:text-tomato-jam transition-colors duration-500">
+                  <h3 className="font-shrikhand text-ink-black text-lg lg:text-xl mb-3 group-hover/card:text-tomato-jam transition-colors duration-500">
                     BSc Data Science
                   </h3>
-                  <p className="text-gray-600 text-base md:text-lg font-bold uppercase tracking-widest leading-snug">
+                  <p className="text-gray-600 text-sm md:text-base font-bold uppercase tracking-widest leading-snug">
                     Marudhar Kesari Jain College (MKJC)
                   </p>
                 </div>
@@ -98,7 +98,7 @@ export default function About() {
                     'Hands-on Project Experience',
                     'Internship-Based Learning'
                   ].map((item, idx) => (
-                    <li key={idx} className="flex items-center gap-4 text-gray-700 text-base md:text-lg font-medium">
+                    <li key={idx} className="flex items-center gap-4 text-gray-700 text-sm md:text-base font-medium">
                       <CheckCircle2 className="w-6 h-6 text-tomato-jam/70 shrink-0" />
                       <span>{item}</span>
                     </li>
