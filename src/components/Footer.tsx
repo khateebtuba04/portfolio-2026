@@ -23,7 +23,7 @@ export default function Footer() {
           whileHover={{ scale: 1.03, textShadow: "0px 10px 30px rgba(255,255,255,0.2)" }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true, margin: "-50px" }}
-          className="font-shrikhand text-[9vw] md:text-[6vw] lg:text-[5vw] leading-[0.9] text-white opacity-90 select-none cursor-default tracking-wide drop-shadow-xl"
+          className="font-shrikhand text-[12vw] md:text-[9vw] lg:text-[7vw] leading-[0.9] text-white opacity-90 select-none cursor-default tracking-wide drop-shadow-xl"
         >
           TUBA MARIYAM
         </motion.h2>
@@ -33,7 +33,7 @@ export default function Footer() {
           whileHover={{ scale: 1.03, filter: "brightness(1.2)" }}
           transition={{ delay: 0.1, duration: 1, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true, margin: "-50px" }}
-          className="font-shrikhand text-[9vw] md:text-[6vw] lg:text-[5vw] leading-[0.9] text-transparent bg-clip-text bg-gradient-to-r from-tomato-jam to-orange-400 select-none cursor-default tracking-wide drop-shadow-[0_10px_30px_rgba(192,57,43,0.3)]"
+          className="font-shrikhand text-[12vw] md:text-[9vw] lg:text-[7vw] leading-[0.9] text-transparent bg-clip-text bg-gradient-to-r from-tomato-jam to-orange-400 select-none cursor-default tracking-wide drop-shadow-[0_10px_30px_rgba(192,57,43,0.3)]"
         >
           KHATEEB
         </motion.h2>

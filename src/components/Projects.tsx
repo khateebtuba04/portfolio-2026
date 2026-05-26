@@ -82,7 +82,7 @@ export default function Projects() {
           <div className="section-tag justify-center">
             <span className="w-8 h-px bg-tomato-jam" /> Portfolio
           </div>
-          <h2 className="font-shrikhand text-ink-black text-2xl md:text-2xl lg:text-3xl tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-shrikhand text-ink-black text-5xl md:text-6xl lg:text-[6rem] tracking-tight leading-[1.1] mb-6">
             Selected <span className="text-tomato-jam italic">Works.</span>
           </h2>
           <p className="text-gray-500 max-w-2xl text-sm md:text-base font-light leading-relaxed">
