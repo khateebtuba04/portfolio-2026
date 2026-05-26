@@ -1,0 +1,47 @@
+Created At: 2026-05-24T13:52:02Z
+Completed At: 2026-05-24T13:52:02Z
+File Path: `file:///c:/Users/khate/OneDrive/Desktop/PORTFOLIO/src/app/page.tsx`
+Total Lines: 39
+Total Bytes: 1105
+Showing lines 1 to 39
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: 'use client';
+2: 
+3: import React from 'react';
+4: import PageLoader from '@/components/PageLoader';
+5: import Navbar from '@/components/Navbar';
+6: import Hero from '@/components/Hero';
+7: import About from '@/components/About';
+8: import Skills from '@/components/Skills';
+9: import Experience from '@/components/Experience';
+10: import Projects from '@/components/Projects';
+11: import Dashboards from '@/components/Dashboards';
+12: import Certifications from '@/components/Certifications';
+13: import Achievements from '@/components/Achievements';
+14: import GitHubShowcase from '@/components/GitHubShowcase';
+15: import Contact from '@/components/Contact';
+16: import Footer from '@/components/Footer';
+17: 
+18: export default function Home() {
+19:   return (
+20:     <>
+21:       <PageLoader />
+22:       <Navbar />
+23:       <div className="relative w-full bg-almond-cream text-seppia-black overflow-x-hidden">
+24:         <Hero />
+25:         <About />
+26:         <Skills />
+27:         <Experience />
+28:         <Projects />
+29:         <Dashboards />
+30:         <Certifications />
+31:         <Achievements />
+32:         <GitHubShowcase />
+33:         <Contact />
+34:         <Footer />
+35:       </div>
+36:     </>
+37:   );
+38: }
+39: 
+The above content shows the entire, complete file contents of the requested file.

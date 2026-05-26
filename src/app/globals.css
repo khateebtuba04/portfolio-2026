@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-almond-cream: #f5f0e8;
+  --color-ink-black: #111111;
+  --color-tomato-jam: #c0392b;
+  --color-seppia-black: #1C1917;
+  --color-metallic-gold: #E5BA73;
+
+  --font-shrikhand: var(--font-playfair), system-ui, serif;
+  --font-sans: var(--font-dmsans), system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg-color: #f5f0e8;
+    --text-color: #1C1917;
+  }
+
+  body {
+    @apply bg-almond-cream text-seppia-black font-sans antialiased overflow-x-hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-shrikhand font-normal;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .bg-dot-pattern {
+    background-image: radial-gradient(#c8b89a 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.15;
+  }
+
+  .section-tag {
+    @apply inline-flex items-center gap-2 text-tomato-jam text-xs font-black tracking-[0.2em] uppercase mb-6;
+  }
+
+  .solid-pill {
+    @apply bg-ink-black text-almond-cream rounded-full px-6 py-3.5 text-xs font-bold hover:-translate-y-1 hover:shadow-[0_10px_20px_-10px_rgba(17,17,17,0.5)] transition-all duration-300;
+  }
+  
+  .solid-pill-cream {
+    @apply bg-white/20 backdrop-blur-sm border border-ink-black/10 text-ink-black rounded-full px-6 py-3.5 text-xs font-bold transition-all duration-300 hover:bg-white/50;
+  }
+
+  .brutalist-card {
+    @apply rounded-[30px] border border-ink-black/10 bg-almond-cream/5 backdrop-blur-sm p-6 lg:p-10 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(192,57,43,0.15)] hover:border-tomato-jam/30 hover:bg-tomato-jam/5 transition-all duration-400 ease-out;
+  }
+}
+
+/* Animations */
+@keyframes swipe-up {
+  0% { transform: translateY(100%); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-100%); opacity: 0; }
+}
+
+@keyframes scroll-dot {
+  0% { transform: translate(-50%, 0); opacity: 1; }
+  100% { transform: translate(-50%, 150%); opacity: 0; }
+}
+
+@keyframes spin-slow {
+  100% { transform: rotate(360deg); }
+}
+
+.animate-swipe-up {
+  animation: swipe-up 1.5s infinite ease-in-out;
+}
+
+.animate-scroll-dot {
+  animation: scroll-dot 1.5s infinite ease-out;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+/* Page Loader transitions */
+::view-transition-group(*),
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 0.25s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }

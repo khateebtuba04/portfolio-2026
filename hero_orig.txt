@@ -1,0 +1,102 @@
+Created At: 2026-05-24T13:52:08Z
+Completed At: 2026-05-24T13:52:08Z
+File Path: `file:///c:/Users/khate/OneDrive/Desktop/PORTFOLIO/src/components/Hero.tsx`
+Total Lines: 145
+Total Bytes: 5868
+Showing lines 1 to 145
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: 'use client';
+2: 
+3: import React, { useEffect, useState, useRef } from 'react';
+4: import { motion } from 'framer-motion';
+5: 
+6: function CountUp({
+7:   end,
+8:   duration = 1600,
+9:   suffix = '',
+10:   isFloat = false,
+11: }: {
+12:   end: number;
+13:   duration?: number;
+14:   suffix?: string;
+15:   isFloat?: boolean;
+16: }) {
+17:   const [count, setCount] = useState(0);
+18:   const [started, setStarted] = useState(false);
+19:   const ref = useRef<HTMLSpanElement>(null);
+20: 
+21:   useEffect(() => {
+22:     const observer = new IntersectionObserver(
+23:       ([entry]) => { if (entry.isIntersecting) setStarted(true); },
+24:       { threshold: 0.5 }
+25:     );
+26:     if (ref.current) observer.observe(ref.current);
+27:     return () => observer.disconnect();
+28:   }, []);
+29: 
+30:   useEffect(() => {
+31:     if (!started) return;
+32:     let startTime: number | null = null;
+33:     const animate = (ts: number) => {
+34:       if (!startTime) startTime = ts;
+35:       const progress = Math.min((ts - startTime) / duration, 1);
+36:       const eased = 1 - Math.pow(1 - progress, 4);
+37:       setCount(eased * end);
+38:       if (progress < 1) requestAnimationFrame(animate);
+39:       else setCount(end);
+40:     };
+41:     requestAnimationFrame(animate);
+42:   }, [end, duration, started]);
+43: 
+44:   return (
+45:     <span ref={ref}>
+46:       {isFloat ? count.toFixed(1) : Math.floor(count)}
+47:       {suffix}
+48:     </span>
+49:   );
+50: }
+51: 
+52: export default function Hero() {
+53:   return (
+54:     <section id="home" className="relative w-full overflow-hidden b
+<truncated 2927 bytes>
+ide: Stats (like the 15+ 5+ in Graffico) */}
+108:         <div className="mt-16 md:mt-0 flex flex-row md:flex-col gap-12 md:gap-16 justify-center text-center md:text-right relative z-20">
+109:           <motion.div
+110:             initial={{ opacity: 0, x: 20 }}
+111:             animate={{ opacity: 1, x: 0 }}
+112:             transition={{ duration: 0.8, delay: 0.4 }}
+113:           >
+114:             <div className="font-shrikhand text-tomato-jam text-4xl md:text-6xl mb-1">
+115:               <CountUp end={94.6} isFloat={true} suffix="%" />
+116:             </div>
+117:             <div className="text-seppia-black/70 text-xs md:text-sm tracking-[0.15em] uppercase font-bold">GPA Score</div>
+118:           </motion.div>
+119:           
+120:           <motion.div
+121:             initial={{ opacity: 0, x: 20 }}
+122:             animate={{ opacity: 1, x: 0 }}
+123:             transition={{ duration: 0.8, delay: 0.5 }}
+124:           >
+125:             <div className="font-shrikhand text-tomato-jam text-4xl md:text-6xl mb-1">
+126:               <CountUp end={25} suffix="+" />
+127:             </div>
+128:             <div className="text-seppia-black/70 text-xs md:text-sm tracking-[0.15em] uppercase font-bold">Projects</div>
+129:           </motion.div>
+130:         </div>
+131:       </div>
+132: 
+133:       {/* Scroll indicator */}
+134:       <div className="absolute inset-x-0 bottom-8 z-20 hidden md:flex justify-center">
+135:         <div className="flex flex-col items-center gap-3">
+136:           <span className="text-seppia-black/50 text-[10px] font-bold tracking-[0.2em] uppercase">Scroll to explore</span>
+137:           <div className="relative h-14 w-7 overflow-hidden rounded-full border border-seppia-black/20">
+138:             <div className="bg-tomato-jam animate-scroll-dot absolute top-2 left-1/2 h-2.5 w-1.5 rounded-full" />
+139:           </div>
+140:         </div>
+141:       </div>
+142:     </section>
+143:   );
+144: }
+145: 
+The above content shows the entire, complete file contents of the requested file.
