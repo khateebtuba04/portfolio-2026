@@ -36,12 +36,12 @@ export default function About() {
             className="lg:col-span-7 flex flex-col items-center md:items-start text-center md:text-left"
           >
             {/* Massive About Me Header */}
-            <h1 className="font-shrikhand text-ink-black text-6xl md:text-7xl lg:text-[6.5rem] leading-[0.9] tracking-tight mb-8 drop-shadow-sm transition-transform duration-700 group-hover:translate-x-2 whitespace-nowrap">
+            <h1 className="font-shrikhand text-ink-black text-5xl md:text-6xl lg:text-6xl leading-[0.9] tracking-tight mb-8 drop-shadow-sm transition-transform duration-700 group-hover:translate-x-2 whitespace-nowrap">
               ABOUT <span className="text-tomato-jam">ME.</span>
             </h1>
 
             <h2 
-              className="font-shrikhand text-4xl md:text-5xl lg:text-6xl leading-tight mb-10 text-ink-black"
+              className="font-shrikhand text-3xl md:text-4xl lg:text-6xl leading-tight mb-10 text-ink-black"
               style={{ fontWeight: 900, WebkitTextStroke: '1px #111111' }}
             >
               Decoding Data, 
@@ -49,7 +49,7 @@ export default function About() {
               <span className="text-tomato-jam italic" style={{ WebkitTextStroke: '1px #c0392b' }}>Building</span> the Future.
             </h2>
             
-            <p className="text-gray-800 font-sans font-medium text-xl md:text-2xl leading-relaxed max-w-2xl group-hover:text-ink-black transition-colors duration-700">
+            <p className="text-gray-800 font-sans font-medium text-base md:text-lg leading-relaxed max-w-2xl group-hover:text-ink-black transition-colors duration-700">
               I am a results-driven Data Science and Analytics Engineer dedicated to transforming complex, raw data into clear, actionable business insights. With a strong foundation in statistical analysis, machine learning, and advanced data visualization, I specialize in uncovering hidden patterns and building intuitive dashboards that empower smarter decision-making. I approach technology not just as lines of code, but as a strategic asset to solve real-world problems, optimize operations, and unlock compelling new opportunities for growth.
             </p>
             
@@ -75,7 +75,7 @@ export default function About() {
                   <GraduationCap className="w-10 h-10 text-tomato-jam group-hover/card:text-white transition-colors duration-500" />
                 </div>
                 <div className="mt-1">
-                  <h3 className="font-shrikhand text-ink-black text-3xl lg:text-4xl mb-3 group-hover/card:text-tomato-jam transition-colors duration-500">
+                  <h3 className="font-shrikhand text-ink-black text-2xl lg:text-3xl mb-3 group-hover/card:text-tomato-jam transition-colors duration-500">
                     BSc Data Science
                   </h3>
                   <p className="text-gray-600 text-base md:text-lg font-bold uppercase tracking-widest leading-snug">
@@ -109,7 +109,7 @@ export default function About() {
 
             {/* The Quote Card */}
             <div className="flex flex-col justify-center items-center text-center p-10 lg:p-12 bg-ink-black rounded-[32px] shadow-lg hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] transition-all duration-500 hover:-translate-y-1 mt-4">
-              <h3 className="font-shrikhand text-almond-cream text-3xl md:text-4xl mb-4 leading-tight">
+              <h3 className="font-shrikhand text-almond-cream text-2xl md:text-3xl mb-4 leading-tight">
                 "Data is the new oil,
               </h3>
               <p className="font-shrikhand text-tomato-jam text-2xl md:text-3xl">

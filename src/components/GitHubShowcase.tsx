@@ -43,7 +43,7 @@ export default function GitHubShowcase() {
             <div className="section-tag mb-4 justify-center md:justify-start">
               <span className="w-8 h-px bg-tomato-jam" /> Open Source
             </div>
-            <h2 className="font-shrikhand text-ink-black text-5xl md:text-6xl lg:text-[6rem] tracking-tight leading-[1.1]">
+            <h2 className="font-shrikhand text-ink-black text-4xl md:text-5xl lg:text-6xl tracking-tight leading-[1.1]">
               The GitHub <br/> <span className="text-tomato-jam italic">Footprint.</span>
             </h2>
           </div>
@@ -82,7 +82,7 @@ export default function GitHubShowcase() {
           >
             <div className="flex justify-between items-end mb-10">
               <div>
-                <h3 className="font-shrikhand text-3xl md:text-4xl text-ink-black mb-2">Contribution Activity</h3>
+                <h3 className="font-shrikhand text-2xl md:text-3xl text-ink-black mb-2">Contribution Activity</h3>
                 <p className="text-gray-500 text-sm font-medium">Consistent code ships and repository updates.</p>
               </div>
               <div className="hidden sm:flex items-center gap-4 text-xs font-bold uppercase tracking-widest text-gray-400">
