@@ -182,7 +182,7 @@ export default function Hero() {
         {/* Right Column: Photo & Orbiting Badges */}
         <div className="w-full flex items-center justify-center relative z-0 pb-16 lg:pb-0">
           
-          <div className="relative flex items-center justify-center w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] lg:w-[600px] lg:h-[600px]">
+          <div className="relative flex items-center justify-center w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] lg:w-[450px] lg:h-[450px] xl:w-[600px] xl:h-[600px]">
             
             {/* Orbiting Badges Container */}
             <motion.div
@@ -198,7 +198,7 @@ export default function Hero() {
                     className="absolute top-1/2 left-1/2 w-0 h-0" 
                     style={{ transform: `rotate(${angle}deg)` }}
                   >
-                    <div className="absolute top-0 left-0 -translate-y-[150px] sm:-translate-y-[225px] lg:-translate-y-[300px]">
+                    <div className="absolute top-0 left-0 -translate-y-[150px] sm:-translate-y-[225px] xl:-translate-y-[300px]">
                       <motion.div
                         initial={{ rotate: -angle }}
                         animate={{ rotate: -360 - angle }}
@@ -218,9 +218,9 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="relative w-[220px] h-[220px] sm:w-[320px] sm:h-[320px] lg:w-[460px] lg:h-[460px] rounded-[40px] lg:rounded-[56px] overflow-hidden shadow-[15px_15px_40px_rgba(192,57,43,0.2)] group z-10"
+              className="relative w-[220px] h-[220px] sm:w-[320px] sm:h-[320px] lg:w-[320px] lg:h-[320px] xl:w-[460px] xl:h-[460px] rounded-[40px] xl:rounded-[56px] overflow-hidden shadow-[15px_15px_40px_rgba(192,57,43,0.2)] group z-10"
             >
-              <div className="absolute inset-0 border-4 md:border-[10px] border-[#c0392b] transition-colors duration-500 rounded-[40px] lg:rounded-[56px] z-20 pointer-events-none opacity-90 group-hover:opacity-100 group-hover:border-[#111111]"></div>
+              <div className="absolute inset-0 border-4 md:border-[10px] border-[#c0392b] transition-colors duration-500 rounded-[40px] xl:rounded-[56px] z-20 pointer-events-none opacity-90 group-hover:opacity-100 group-hover:border-[#111111]"></div>
               <Image 
                 src="/profile.jpg" 
                 alt="Tuba Mariyam Khateeb" 
